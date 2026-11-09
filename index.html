@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geneva environment jobs</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #F3F7F7; --ink: #12262B; --muted: #5A6F74; --line: #D5E0E1;
+    --lake: #0B6B7A; --newbg: #FBE6DA; --newink: #9A3A0C;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0F1A1D; --ink: #E4EEEF; --muted: #8FA5A9; --line: #263539;
+      --lake: #5CC0CF; --newbg: #3A2316; --newink: #F2A36B;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+  h1 { font: 600 2rem/1.15 Georgia, "Times New Roman", serif; margin: 0 0 6px; }
+  .sub, .count, .meta { color: var(--muted); font-size: .9rem; margin: 0; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin: 24px 0 10px; }
+  input[type=search], select { font: inherit; color: inherit; background: transparent;
+         border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
+  input[type=search] { flex: 1 1 200px; min-width: 0; }
+  label { font-size: .9rem; display: flex; gap: 6px; align-items: center; }
+  ul { list-style: none; padding: 0; margin: 12px 0 0; }
+  #list li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  #list a { color: var(--lake); font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+  #list a:hover { text-decoration: underline; }
+  .badge { background: var(--newbg); color: var(--newink); font-size: .7rem; font-weight: 700;
+           letter-spacing: .04em; text-transform: uppercase; padding: 2px 7px; border-radius: 99px; margin-left: 8px; }
+  details { margin-top: 40px; font-size: .9rem; color: var(--muted); }
+  summary { cursor: pointer; }
+  details li { padding: 3px 0; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Geneva environment jobs</h1>
+  <p class="sub" id="updated">Loading…</p>
+  <div class="controls">
+    <input id="q" type="search" placeholder="Filter by keyword" aria-label="Filter by keyword">
+    <select id="site" aria-label="Organisation"><option value="">All organisations</option></select>
+    <label><input id="newonly" type="checkbox"> New in the last 7 days</label>
+  </div>
+  <p class="count" id="count" aria-live="polite"></p>
+  <ul id="list"></ul>
+  <details id="status"><summary>Source status</summary><ul id="statuslist"></ul></details>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+let data;
+const isNew = j => !j.baseline && Date.now() - new Date(j.first_seen) < 7 * 864e5;
+
+fetch('data/jobs.json', { cache: 'no-store' })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => { data = d; init(); })
+  .catch(() => {
+    $('#updated').textContent =
+      'No data yet. In the repository, open Actions, choose “Scrape jobs” and click Run workflow.';
+  });
+
+function init() {
+  $('#updated').textContent = 'Last checked ' +
+    new Date(data.updated).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+  const names = [...new Set(data.jobs.filter(j => j.active).map(j => j.site))].sort();
+  for (const n of names) {
+    const o = document.createElement('option');
+    o.value = o.textContent = n;
+    $('#site').append(o);
+  }
+  for (const id of ['q', 'site', 'newonly']) $('#' + id).addEventListener('input', render);
+  renderStatus();
+  render();
+}
+
+function render() {
+  const q = $('#q').value.trim().toLowerCase();
+  const site = $('#site').value, onlyNew = $('#newonly').checked;
+  const jobs = data.jobs
+    .filter(j => j.active && (!site || j.site === site) && (!onlyNew || isNew(j)) &&
+                 (j.title + ' ' + j.site).toLowerCase().includes(q))
+    .sort((a, b) => isNew(b) - isNew(a) || b.first_seen.localeCompare(a.first_seen) ||
+                    a.site.localeCompare(b.site));
+  $('#count').textContent = jobs.length + (jobs.length === 1 ? ' listing' : ' listings');
+  const ul = $('#list');
+  ul.replaceChildren();
+  for (const j of jobs) {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = j.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = j.title;
+    li.append(a);
+    if (isNew(j)) {
+      const b = document.createElement('span');
+      b.className = 'badge'; b.textContent = 'New';
+      li.append(b);
+    }
+    const meta = document.createElement('p');
+    meta.className = 'meta';
+    meta.textContent = j.site + ', first seen ' + j.first_seen;
+    li.append(meta);
+    ul.append(li);
+  }
+}
+
+function renderStatus() {
+  const entries = Object.entries(data.sites);
+  const bad = entries.filter(([, s]) => !s.ok).length;
+  $('#status summary').textContent = bad
+    ? `Source status: ${bad} of ${entries.length} need attention`
+    : 'Source status: all sources responded';
+  for (const [name, s] of entries) {
+    const li = document.createElement('li');
+    li.textContent = s.ok ? `${name}: ${s.count} matching` + (s.pending ? `, ${s.pending} still to be checked` : '') : `${name}: ${s.message}`;
+    $('#statuslist').append(li);
+  }
+}
+</script>
+</body>
+</html>
