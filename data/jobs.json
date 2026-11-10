@@ -1,0 +1,3533 @@
+{
+ "updated": "2026-11-10T16:39:03+00:00",
+ "sites": {
+  "ILO": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "ITU": {
+   "ok": true,
+   "count": 22,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "WHO": {
+   "ok": true,
+   "count": 1,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "ITC": {
+   "ok": false,
+   "message": "No job links found. The page may load jobs differently.",
+   "baseline_done": false
+  },
+  "UNOPS": {
+   "ok": true,
+   "count": 10,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "UNITAR": {
+   "ok": true,
+   "count": 4,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Université de Genève": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "IHEID": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "World Economic Forum": {
+   "ok": true,
+   "count": 11,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "CERN": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "WTO": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Oak Foundation": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "FAO": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "UNDP": {
+   "ok": true,
+   "count": 1,
+   "pending": 42,
+   "baseline_done": false
+  },
+  "IUCN": {
+   "ok": true,
+   "count": 2,
+   "pending": 5,
+   "baseline_done": false
+  },
+  "WWF International": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "WWF (rexx portal)": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "IISD": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "WMO": {
+   "ok": false,
+   "message": "No job links found. The page may load jobs differently.",
+   "baseline_done": false
+  },
+  "WBCSD": {
+   "ok": false,
+   "message": "No job links found. The page may load jobs differently.",
+   "baseline_done": false
+  },
+  "Pro Natura Genève": {
+   "ok": true,
+   "count": 1,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Impact Hub Geneva": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "CIEL": {
+   "ok": true,
+   "count": 4,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Earthjustice": {
+   "ok": true,
+   "count": 0,
+   "pending": 1,
+   "baseline_done": false
+  },
+  "TESS Forum": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Global Footprint Network": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Gold Standard": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Climate Action Accelerator": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Association pour la sauvegarde du Léman": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "Ville de Genève": {
+   "ok": true,
+   "count": 7,
+   "pending": 5,
+   "baseline_done": false
+  },
+  "État de Genève (ge.ch)": {
+   "ok": true,
+   "count": 16,
+   "pending": 49,
+   "baseline_done": false
+  },
+  "CAGI": {
+   "ok": false,
+   "message": "No job links found. The page may load jobs differently.",
+   "baseline_done": false
+  },
+  "IFRC": {
+   "ok": false,
+   "message": "No job links found. The page may load jobs differently.",
+   "baseline_done": false
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 0,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "IATA": {
+   "ok": true,
+   "count": 24,
+   "pending": 0,
+   "baseline_done": true
+  },
+  "WIPO": {
+   "ok": true,
+   "count": 10,
+   "pending": 0,
+   "baseline_done": true
+  }
+ },
+ "jobs": [
+  {
+   "id": "e1b78a11d69a",
+   "site": "État de Genève (ge.ch)",
+   "title": "Taxatrice spécialisée ou taxateur spécialisé",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2282",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "67ab1fde4b58",
+   "site": "État de Genève (ge.ch)",
+   "title": "Juriste 2",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2307",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c4727da53f3c",
+   "site": "État de Genève (ge.ch)",
+   "title": "Secrétaire 2 (auxiliaire)",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2336",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "fbf9b1b178e8",
+   "site": "État de Genève (ge.ch)",
+   "title": "Assistante administrative ou assistant administratif 2",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2183",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "452cd183498c",
+   "site": "État de Genève (ge.ch)",
+   "title": "Hydrogéologue spécialisée ou spécialisé en sites pollués (adjointe ou adjoint scientifique 3)",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2325",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "b89187ef6bf4",
+   "site": "État de Genève (ge.ch)",
+   "title": "Manager de programmes",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2304",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "7aaa78aa7442",
+   "site": "État de Genève (ge.ch)",
+   "title": "Cheffe ou chef du groupe véhicules et transport",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2289",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "bc20f12a703a",
+   "site": "État de Genève (ge.ch)",
+   "title": "ISJ - Référent-e en insertion professionnelle à 80%",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2277",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c44c56b0be44",
+   "site": "État de Genève (ge.ch)",
+   "title": "Deux greffières ou greffiers",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2351",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "e8901db8df74",
+   "site": "État de Genève (ge.ch)",
+   "title": "Collaboratrice ou collaborateur scientifique SABRA (adjointe ou adjoint scientifique 2) auxiliaire",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2274",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "83b7be1dfb28",
+   "site": "État de Genève (ge.ch)",
+   "title": "Laborantin-e 3 en chimie à 80%",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2280",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "bf9ef6771083",
+   "site": "État de Genève (ge.ch)",
+   "title": "Adjointe ou adjoint scientifique 2 - Analyste numérique - Auxiliaire 12 mois - PJ - BRCV",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2272",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "e0bdf57f3bcd",
+   "site": "État de Genève (ge.ch)",
+   "title": "Inspectrice ou inspecteur technique des automobiles",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2265",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "aed227f0b5e3",
+   "site": "État de Genève (ge.ch)",
+   "title": "Urbaniste-aménagiste cheffe ou chef de projet",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2341",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "3cc90d934129",
+   "site": "État de Genève (ge.ch)",
+   "title": "Thérapeute de la psychomotricité",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2238",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "8be8ced6ca4c",
+   "site": "État de Genève (ge.ch)",
+   "title": "Une cheffe ou un chef de service à 100% - SPMI 115615",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2318",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "154e408f614d",
+   "site": "World Economic Forum",
+   "title": "Senior Associate, Innovation Ecosystem – Mining & Metals",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Associate--Innovation-Ecosystem---Mining---Metals_R4369",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "8698806883da",
+   "site": "World Economic Forum",
+   "title": "Associate, Nature and Climate – Multilateral Affairs",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Associate--Nature-and-Climate---Multilateral-Affairs_R4357",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "02ce4bce3e8d",
+   "site": "World Economic Forum",
+   "title": "Account Manager, Partner Strategy, Africa",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Manager--Partner-Strategy--Africa_R4289",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "983956234425",
+   "site": "World Economic Forum",
+   "title": "Senior Associate, Centre for Experience Economy and Cities",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Senior-Associate--Centre-for-Experience-Economy-and-Cities_R4352-1",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c18b586a9a10",
+   "site": "World Economic Forum",
+   "title": "Senior Manager, Media",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Senior-Manager--Media_R4317",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "01ea3c318e68",
+   "site": "World Economic Forum",
+   "title": "Associate, Centre for Advanced Manufacturing and Supply Chains (Temporary)",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Associate--Centre-for-Advanced-Manufacturing-and-Supply-Chains--Temporary-_R4338",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "dff9d76723a7",
+   "site": "World Economic Forum",
+   "title": "Account Analyst, Latin America",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Analyst--Latin-America_R4309",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "76962faa7d04",
+   "site": "World Economic Forum",
+   "title": "Account Manager, India and South Asia",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Manager--Partner-Strategy--India-and-South-Asia_R3524",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "8d8f6a6291c9",
+   "site": "World Economic Forum",
+   "title": "Manager, API Practice Engineering",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Practice-Engineer---API_R4247",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "140b88a99692",
+   "site": "World Economic Forum",
+   "title": "Senior Manager, Grant Governance and Compliance",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Manager--Grant-Governance-and-Compliance_R4302",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "945bdd6faaa2",
+   "site": "World Economic Forum",
+   "title": "Engineering Manager, Product Engineering",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Engineering-Manager--Product-Engineering_R4246",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c101f504f88a",
+   "site": "WIPO",
+   "title": "Client Advisor",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26149-TA&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "8cf41b0eba5e",
+   "site": "WIPO",
+   "title": "User and Application Support Analyst",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26306-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "fefa18367955",
+   "site": "WIPO",
+   "title": "HCM Payroll Specialist",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26305-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "cae50ee881e9",
+   "site": "WIPO",
+   "title": "Associate Performance and Budget Analyst",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26326-TA&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "a1526984f9e8",
+   "site": "WIPO",
+   "title": "Senior Cloud Security Engineer",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26328-TA&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "282d01a87a27",
+   "site": "WIPO",
+   "title": "Associate Digital Intelligence and Analytics Officer",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26300-TA&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "09519eae89a5",
+   "site": "WIPO",
+   "title": "Associate Legal Officer",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26310-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "ed0e38ef4ea0",
+   "site": "WIPO",
+   "title": "Master Data Management Officer",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26311-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "835549c984e5",
+   "site": "WIPO",
+   "title": "Counsellor",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26317-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "e15d13bc52a7",
+   "site": "WIPO",
+   "title": "Head, Administrative Law Section",
+   "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26185-FT&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "4d502029c03d",
+   "site": "WHO",
+   "title": "Medical Officer",
+   "url": "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604298&tz=GMT%2B00%3A00&tzname=UTC",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "674aa9348a72",
+   "site": "Ville de Genève",
+   "title": "Postuler à un poste vacant à l'administration municipale",
+   "url": "https://www.geneve.ch/demarches/postuler-poste-vacant-administration-municipale",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "ae553cd9f1a3",
+   "site": "Ville de Genève",
+   "title": "Contremaître spécialisé ou Contremaîtresse spécialisée travaux et arrosage à 100%",
+   "url": "https://www.geneve.ch/administration-municipale/offres-emploi/contremaitre-specialise-contremaitresse-specialisee-travaux-arrosage-100",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "a8e37e54f8e0",
+   "site": "Ville de Genève",
+   "title": "Gérant ou Gérante d'opérations foncières et négociateur ou négociatrice en biens immobiliers à 100%",
+   "url": "https://www.geneve.ch/administration-municipale/offres-emploi/gerant-gerante-operations-foncieres-negociateur-negociatrice-biens-immobiliers-100",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "9dc580408fb8",
+   "site": "Ville de Genève",
+   "title": "Contrôleur ou Contrôleuse des incivilités à 100%",
+   "url": "https://www.geneve.ch/administration-municipale/offres-emploi/controleur-controleuse-incivilites-100",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "e5845fca38f7",
+   "site": "Ville de Genève",
+   "title": "Travailleur social ou Travailleuse sociale à 80-90%",
+   "url": "https://www.geneve.ch/administration-municipale/offres-emploi/travailleur-social-travailleuse-sociale-80-90",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "986d0d6bec4f",
+   "site": "Ville de Genève",
+   "title": "Administrateur ou Administratrice à 80%",
+   "url": "https://www.geneve.ch/administration-municipale/offres-emploi/administrateur-administratrice-80",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "0da254d68cce",
+   "site": "Ville de Genève",
+   "title": "Electricien ou Electricienne d'exploitation à 80%",
+   "url": "https://www.geneve.ch/administration-municipale/offres-emploi/electricien-electricienne-exploitation-80",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c34ea5f921a3",
+   "site": "UNOPS",
+   "title": "Administration Associate",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Administration-Associate-Translator-Interpreter/4845",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "32e40d2ed0ce",
+   "site": "UNOPS",
+   "title": "Administration Senior Assistant",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Administration-Senior-Assistant/4947",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "6b45896dc399",
+   "site": "UNOPS",
+   "title": "Advisor- Innovative and Sustainable Finance",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Innovative-and-Sustainable-Finance/4960",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "13267b546edc",
+   "site": "UNOPS",
+   "title": "Advisor, Finance",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Finance/5011",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "265e9cca91ba",
+   "site": "UNOPS",
+   "title": "Advisor, Operations Management",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Operations-Management/4828",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "e5bd273b62ff",
+   "site": "UNOPS",
+   "title": "Advisor, Portfolio Management",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Portfolio-Management/5044",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "e7c5a7dcba30",
+   "site": "UNOPS",
+   "title": "Advisor, Programme oversight and Stakeholder Collaboration",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Programme-oversight-and-Stakeholder-Collaboration/4997",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "abd95897e0f7",
+   "site": "UNOPS",
+   "title": "Advisor, TB Epidemiologist and Government Liaison",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-TB-Epidemiologist-and-Government-Liaison/4996",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "63dc0dfc656a",
+   "site": "UNOPS",
+   "title": "Capacity Building Specialist (Media and Communication)",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Capacity-Building-Specialist-Media-and-Communication-retainer-position/5073",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "b8c518e49265",
+   "site": "UNOPS",
+   "title": "Capacity Building Specialist (Media development, journalism and strategic communication)",
+   "url": "https://careers.unops.org/careersmarketplace/JobDetail/Capacity-Building-Specialist-Media-development-journalism-and-strategic-communication-retainer-position/5074",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "ea2ef44aba7c",
+   "site": "UNITAR",
+   "title": "Traineeship – Multilateral Diplomacy Programme – Field Visits and Online Training Programmes",
+   "url": "https://unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/437",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "187e2b8a7103",
+   "site": "UNITAR",
+   "title": "Deputy Executive Director - D2",
+   "url": "https://unitar.org/vacancy-announcements/deputy-executive-director-d2/438",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c9627552232e",
+   "site": "UNITAR",
+   "title": "Individual Contractor - Geospatial Quality Assurance, Training and Analytical Support Specialists (Geneva office based)",
+   "url": "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-quality-assurance-training-and-analytical-support-specialists/413",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "3a13a6c22ddf",
+   "site": "UNITAR",
+   "title": "Individual Contractor - Geospatial Analysts – Satellite Imagery and GIS (Geneva office based)",
+   "url": "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-analysts-satellite-imagery-and-gis-geneva-office-based/415",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "aaf9f59b39f5",
+   "site": "UNDP",
+   "title": "Conflict-Related Sexual Violence (CRSV) Rule of Law Specialist - (Home Based) - [Open to Tier 0, 1, and 2] IPSA-11 Nov-10-26 UNDP Geneve, Switzerland",
+   "url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37143",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "575028d92bec",
+   "site": "Pro Natura Genève",
+   "title": "Offre d'emploi - Animateur·ice·s Centres Nature… (577kB)",
+   "url": "https://www.pronatura-ge.ch/sites/pronatura-ge.ch/files/2026-10/2027_offre_demploi_anim_junior_cns.pdf",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "2a617346b6da",
+   "site": "IUCN",
+   "title": "Responsable du service technique – Unité des Services généraux",
+   "url": "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11815&lang=fr",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "a1b5c1e0457b",
+   "site": "IUCN",
+   "title": "Monitoring, Evaluation, Accountability and Learning (MEAL) Officer",
+   "url": "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11808&lang=en",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "fbda725bb248",
+   "site": "ITU",
+   "title": "Consultant/expert",
+   "url": "https://jobs.itu.int/go/Special-service-agreement/8942955/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "538f95a6cee7",
+   "site": "ITU",
+   "title": "Location",
+   "url": "https://jobs.itu.int/go/View-all-categories/8942455/?q=&sortColumn=sort_location&sortDirection=desc",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "038f46bee87b",
+   "site": "ITU",
+   "title": "Job family",
+   "url": "https://jobs.itu.int/go/View-all-categories/8942455/?q=&sortColumn=sort_department&sortDirection=desc",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "64e63db641c7",
+   "site": "ITU",
+   "title": "Unpaid internship - Emergency Telecommunications Intern",
+   "url": "https://jobs.itu.int/job/Geneva-Unpaid-internship-Emergency-Telecommunications-Intern/1367950855/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "6fb48e072d78",
+   "site": "ITU",
+   "title": "Roster - Senior National Cybersecurity Strategy Consultant",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-Senior-National-Cybersecurity-Strategy-Consultant/1335797655/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "06342c539d4f",
+   "site": "ITU",
+   "title": "Roster - Senior CIRT Technical and Operations Consultant",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-Senior-CIRT-Technical-and-Operations-Consultant/1335794555/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "9a576fc9dfdb",
+   "site": "ITU",
+   "title": "Roster - Senior CIRT Governance and Policy Consultant",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-Senior-CIRT-Governance-and-Policy-Consultant/1335756755/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "a5aa7638be4a",
+   "site": "ITU",
+   "title": "Roster - Consultant for Senior ICT/Digital Policy, Regulatory, Economic and Market for Africa",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-Consultant-for-Senior-ICTDigital-Policy%2C-Regulatory%2C-Economic-and-Market-for-Africa/993610255/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "46e586775d45",
+   "site": "ITU",
+   "title": "Senior ICT/Digital Policy, Regulatory and Market Consultant Roster",
+   "url": "https://jobs.itu.int/job/Home-Based-Senior-ICTDigital-Policy%2C-Regulatory-and-Market-Consultant-Roster/951938655/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "7e40637d0c6b",
+   "site": "ITU",
+   "title": "Disaster Preparedness Consultant Roster",
+   "url": "https://jobs.itu.int/job/Home-Based-Disaster-Preparedness-Consultant-Roster/962961855/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c0ca86578a46",
+   "site": "ITU",
+   "title": "Disaster Preparedness Consultant - National Emergency Telecom Plans and Mobile Early Warning",
+   "url": "https://jobs.itu.int/job/Home-Based-Disaster-Preparedness-Consultant-National-Emergency-Telecom-Plans-and-Mobile-Early-Warning/941800455/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "8b6ba5e9705c",
+   "site": "ITU",
+   "title": "Child Online Protection Consultant Roster",
+   "url": "https://jobs.itu.int/job/Home-Based-Child-Online-Protection-Consultant-Roster/957375555/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "a18d87edbf74",
+   "site": "ITU",
+   "title": "Roster - Country Project Coordination Consultant",
+   "url": "https://jobs.itu.int/job/Multiple-duty-stations-Roster-Country-Project-Coordination-Consultant/1367143655/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "5dabea8905c1",
+   "site": "ITU",
+   "title": "Responsable des opérations de cybersécurité",
+   "url": "https://jobs.itu.int/job/Gen%C3%A8ve-Responsable-des-op%C3%A9rations-de-cybers%C3%A9curit%C3%A9/1370275355/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "1b253f2d1194",
+   "site": "ITU",
+   "title": "Roster - ITU-FCDO Technical Support and Coordination Consultant",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-ITU-FCDO-Technical-Support-and-Coordination-Consultant/1337227855/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "b790dab87248",
+   "site": "ITU",
+   "title": "Roster - Senior ICT/Digital Consultant for the Americas",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-Senior-ICTDigital-Consultant-for-the-Americas/1153253155/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "dc7b53380d25",
+   "site": "ITU",
+   "title": "Roster - UX Researcher Consultant",
+   "url": "https://jobs.itu.int/job/Home-Based-Roster-UX-Researcher-Consultant/1341821555/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "908215da9e10",
+   "site": "ITU",
+   "title": "Cybersecurity Operations Manager",
+   "url": "https://jobs.itu.int/job/Geneva-Cybersecurity-Operations-Manager/1370275455/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "4bc32c2f0eb8",
+   "site": "ITU",
+   "title": "Unpaid Internship - Project Coordination Intern",
+   "url": "https://jobs.itu.int/job/Cairo-Unpaid-Internship-Project-Coordination-Intern/1374673655/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "4ba690fedd2d",
+   "site": "ITU",
+   "title": "Unpaid Internship - AI for Programme Management and Process Innovation Intern",
+   "url": "https://jobs.itu.int/job/Cairo-Unpaid-Internship-AI-for-Programme-Management-and-Process-Innovation-Intern/1374673855/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "b7eb7da44bbb",
+   "site": "ITU",
+   "title": "Head, Organizational Design, Workforce Planning & Talent Acquisition Division",
+   "url": "https://jobs.itu.int/job/Geneva-Head%2C-Organizational-Design%2C-Workforce-Planning-&-Talent-Acquisition-Division/1374527155/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "eb89d1493cc1",
+   "site": "ITU",
+   "title": "Chef(fe), Design organisationnel, planification des effectifs et acquisition des talents",
+   "url": "https://jobs.itu.int/job/Gen%C3%A8ve-Chef%28fe%29%2C-Design-organisationnel%2C-planification-des-effectifs-et-acquisition-des-talents/1374527255/",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "872ec94c9e8f",
+   "site": "IATA",
+   "title": "Senior Enterprise Architect",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3879?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "6f634cddd866",
+   "site": "IATA",
+   "title": "Intern Training Center Geneva",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3878?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c99c14996377",
+   "site": "IATA",
+   "title": "SAP Order-to-Cash (OTC) Functional Lead",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3687?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "30a22121cabf",
+   "site": "IATA",
+   "title": "Intern, Corporate Finance",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3845?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "3dcc69fd0ef4",
+   "site": "IATA",
+   "title": "Senior Manager Crew Training",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3875?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "895d447d07c2",
+   "site": "IATA",
+   "title": "IT Contracts and Vendor Management Specialist",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3871?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "1bb0a22f97f6",
+   "site": "IATA",
+   "title": "Head Flight Operations and Crew Training",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3872?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "3b920aaa4959",
+   "site": "IATA",
+   "title": "Intern, S&E Services",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3866?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "b7036840e1ec",
+   "site": "IATA",
+   "title": "Intern Global Aviation Data Management",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3864?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "78d22fa40c95",
+   "site": "IATA",
+   "title": "Manager Customer Service",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3749?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "efbd49c2d47f",
+   "site": "IATA",
+   "title": "Intern Marketing",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3854?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "b9faaa529f3a",
+   "site": "IATA",
+   "title": "Assistant Director Economic Analysis",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3826?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "35800e63de43",
+   "site": "IATA",
+   "title": "PPD Specialist North Asia",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3852?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "eeb088b487ca",
+   "site": "IATA",
+   "title": "Manager, Learning Experience and Support",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3718?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "9adfc95d5884",
+   "site": "IATA",
+   "title": "Intern, Corporate Taxation",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3734?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "992f59cf479e",
+   "site": "IATA",
+   "title": "Senior Product Manager, MRO Smart Hub",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3822?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "68dc6c5779e1",
+   "site": "IATA",
+   "title": "Senior Manager, DDS Operations",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3813?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "2993370a91f7",
+   "site": "IATA",
+   "title": "Head Billing Operations & Data Processing",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3802?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "9e7eae4cbba1",
+   "site": "IATA",
+   "title": "Assistant Manager Supply Chain and MRO Operations",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3781?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "2ddb5cdd6fcb",
+   "site": "IATA",
+   "title": "Assistant Manager EU Affairs",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3785?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "c5cde6fac2b8",
+   "site": "IATA",
+   "title": "Intern Standardization Participation",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3768?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "9a4d53090d94",
+   "site": "IATA",
+   "title": "Macro Economist",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3726?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "5d57f8f841d8",
+   "site": "IATA",
+   "title": "Senior Manager, Industry Transformation and Digitalization",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3751?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "cd9f7e775c14",
+   "site": "IATA",
+   "title": "Intern IATA Banking Management",
+   "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3750?c=iata",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "4eea77df5c23",
+   "site": "CIEL",
+   "title": "General Interest Application - CIEL Talent Pool",
+   "url": "https://cielorg.bamboohr.com/careers/111",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "ed92dc125c32",
+   "site": "CIEL",
+   "title": "Legal Fellowship",
+   "url": "https://cielorg.bamboohr.com/careers/112",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "45c0aa7dda52",
+   "site": "CIEL",
+   "title": "Spring 2027 Legal Internship (US)",
+   "url": "https://cielorg.bamboohr.com/careers/133",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  },
+  {
+   "id": "6eb8f0131830",
+   "site": "CIEL",
+   "title": "Summer 2027 Legal Internship (US)",
+   "url": "https://cielorg.bamboohr.com/careers/134",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "active": true,
+   "baseline": true
+  }
+ ],
+ "checked": {
+  "https://jobs.ilo.org/go/International/2843001/": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.ilo.org/go/Development-Cooperation/2842701/": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.ilo.org/go/Temporary/2843901/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.ilo.org/go/Junior-Professional-Officers/2843301/": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.ilo.org/go/Internships/9589701/": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.ilo.org/go/All-Jobs/2842101/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ilo.org/about-ilo/individual-consultant-opportunities": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.ilo.org/content/Internships-for-persons-with-disabilities/?locale=en_GB": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.ilo.org/search/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.linkedin.com/company/international-labour-organization-ilo": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.itu.int/content/Career-opportunities/?locale=en_US": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/content/Internships/?locale=en_US": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/content/Junior-Professional-Officers/?locale=en_US": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/go/International-Professional/8942355/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/go/National-professional-officer/8942555/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/go/General-service-%28HQField%29/8942655/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/go/Short-term-appointment/8942855/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/go/Special-service-agreement/8942955/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/go/Internship/8943055/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/go/View-all-categories/8942455/?q=&sortColumn=sort_location&sortDirection=desc": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/go/View-all-categories/8942455/?q=&sortColumn=sort_department&sortDirection=desc": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Gen%C3%A8ve-Ing%C3%A9nieur%28e%29-en-logiciel/1376463055/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Geneva-Software-Engineer/1376462955/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Geneva-Unpaid-internship-Emergency-Telecommunications-Intern/1367950855/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-Senior-National-Cybersecurity-Strategy-Consultant/1335797655/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-Senior-CIRT-Technical-and-Operations-Consultant/1335794555/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-Senior-CIRT-Governance-and-Policy-Consultant/1335756755/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-for-TelecommunicationICT-Statistics-Programme/935798155/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-Consultant-for-Senior-ICTDigital-Policy%2C-Regulatory%2C-Economic-and-Market-for-Africa/993610255/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Senior-ICTDigital-Policy%2C-Regulatory-and-Market-Consultant-Roster/951938655/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Disaster-Preparedness-Consultant-Roster/962961855/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Disaster-Preparedness-Consultant-National-Emergency-Telecom-Plans-and-Mobile-Early-Warning/941800455/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Geneva-Roster-Conference-Interpreter-%28I-1I-2-level%29/1334959855/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Child-Online-Protection-Consultant-Roster/957375555/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Multiple-duty-stations-Roster-Country-Project-Coordination-Consultant/1367143655/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-Kaizen-and-Process-Improvement-Consultant/1341822255/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Gen%C3%A8ve-Responsable-des-op%C3%A9rations-de-cybers%C3%A9curit%C3%A9/1370275355/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-ITU-FCDO-Technical-Support-and-Coordination-Consultant/1337227855/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-Senior-ICTDigital-Consultant-for-the-Americas/1153253155/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Home-Based-Roster-UX-Researcher-Consultant/1341821555/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Geneva-Cybersecurity-Operations-Manager/1370275455/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Cairo-Unpaid-Internship-Project-Coordination-Intern/1374673655/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Cairo-Unpaid-Internship-AI-for-Programme-Management-and-Process-Innovation-Intern/1374673855/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Geneva-Head%2C-Organizational-Design%2C-Workforce-Planning-&-Talent-Acquisition-Division/1374527155/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Gen%C3%A8ve-Chef%28fe%29%2C-Design-organisationnel%2C-planification-des-effectifs-et-acquisition-des-talents/1374527255/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.itu.int/job/Addis-Ababa-Administrative-Assistant/1374620755/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://careers.who.int/careersection/ex/mysubmissions.ftl": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://www.who.int/publications/m/item/stellis-user-guide-how-to-apply-to-who-job-opportunities?ua=1": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/profile.jss?type=1&portal=101430233": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobsearch.ftl?ftlcompclass=LoginComponent&restore=true": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/mysearches.ftl": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604419&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604883&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604850&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604657&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604768&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604889&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604764&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604913&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604869&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604814&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604890&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604737&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604880&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604318&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604298&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604851&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604464&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604782&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604323&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2602010&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604817&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604816&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604809&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604797&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604452&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/RecommendationMethods": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/SearchJobs": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Administration-Associate-Translator-Interpreter/4845": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Administration-Senior-Assistant/4947": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Innovative-and-Sustainable-Finance/4960": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Finance/5011": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Operations-Management/4828": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Partnerships/5086": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Portfolio-Management/5044": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Programme-oversight-and-Stakeholder-Collaboration/4997": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-TB-Epidemiologist-and-Government-Liaison/4996": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Architectural-Associate/5106": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Asistente-T-cnico-a-de-Arquitectura/4955": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Asistente-T-cnico-a-de-Ingenier-a-de-Construcci-n/4956": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/ASOCIADO-DE-SOPORTE-EN-GESTI-N-DE-PROYECTOS/5111": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Biomedical-Engineer/4893": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Biomedical-Engineer/4736": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Capacity-Building-Specialist-Media-and-Communication-retainer-position/5073": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Capacity-Building-Specialist-Media-development-journalism-and-strategic-communication-retainer-position/5074": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Charg-e-de-suivi-valuation-Retainer/4934": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Civil-EngineerCivil-Engineer-DDT-Kyrgyzstan-readvertised/5117": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Civil-Engineer/4953": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/TalentCommunity": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/437": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://unitar.org/vacancy-announcements/deputy-executive-director-d2/438": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-quality-assurance-training-and-analytical-support-specialists/413": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-analysts-satellite-imagery-and-gis-remote/416": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-quality-assurance-training-and-analytical-support-specialists/414": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-analysts-satellite-imagery-and-gis-geneva-office-based/415": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://unitar.org/vacancy-announcements/roster/consultant-independent-evaluation-traininglearning-related-projects-roster-planning-performance/397": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/roster/consultant-learning-solutions-roster-educational-technology-information-technology-and-artificial/356": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/roster/consultant-online-learning-and-education-developer-and-facilitator/235": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/roster/consultant-instructional-design/60": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://www.unige.ch/dirh/postes-vacants": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://jobs.unige.ch/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.unige.ch/www/wd_portal.search_results?p_web_site_id=1&p_category_id=1&p_suppress_params_on_error=N&p_show_results=Y&p_form_type=CHECKBOX&p1=51&p1_val=Any&p2=46&p2_val=50&p_text=&p_save_search=N": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.unige.ch/www/wd_portal.search_results?p_web_site_id=1&p_category_id=1&p_suppress_params_on_error=N&p_show_results=Y&p_form_type=CHECKBOX&p1=51&p1_val=Any&p2=46&p2_val=51&p_text=&p_save_search=N": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.unige.ch/dirh/emplois/Placesdapprentissage": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://vie-de-campus.unige.ch/carriere": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://erecruit.graduateinstitute.ch/recrutement/?page=advertisement_display&id=696": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Associate--Innovation-Ecosystem---Mining---Metals_R4369": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Associate--Nature-and-Climate---Multilateral-Affairs_R4357": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Manager--Partner-Strategy--Africa_R4289": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Beijing/Specialist--Content-and-Programming_R3989": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Senior-Associate--Centre-for-Experience-Economy-and-Cities_R4352-1": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Account-Manager--Communications-and-Technology_R4313": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Account-Analyst--Financial-Services_R4288": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Senior-Manager--Media_R4317": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Associate--Centre-for-Advanced-Manufacturing-and-Supply-Chains--Temporary-_R4338": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Analyst--Latin-America_R4309": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Head-of-Growth-and-Impact--Urban-Transformation_R3958": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Manager--Partner-Strategy--India-and-South-Asia_R3524": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Tokyo/Government-Engagement-Lead---Japan--Japanese-Speaking-_R3956-1": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Practice-Engineer---API_R4247": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Manager--Grant-Governance-and-Compliance_R4302": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Tokyo/Partner-Lead--Japan-Business-Team_R4149": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Tokyo/Account-Associate--Japan_R4304": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Tokyo/Head-of-Business-Engagement--Japan_R4252": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Engineering-Manager--Product-Engineering_R4246": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/recruitment-journey/": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://careers.cern/jobs/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://directory.web.cern.ch/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/administration/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/applied-physics/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/chemical-materials-process-engineering/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/civil-engineering/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/communication-stakeholder-engagement/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/data-science-ai-analytics/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/electrical-engineering/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/electronics-engineering/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/experimental-physics/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/facilities-infrastructure-management/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/finance-control-audit/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/health-safety-environment-sustainability/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/human-resources/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/information-technologies/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/logistics-transport/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/mechanical-engineering/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/procurement/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/site-security/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/technology-transfer-innovation/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/explore-careers/theoretical-physics/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.cern/testimonial/26167/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://careers.cern/events/": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.cern-studienstiftung.de/veranstaltungen/netzwerktag-computing-engineering-in-berlin": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://oakfnd.org/programme-officer-prevent-child-sexual-abuse/": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobsearch.ftl": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/mysubmissions.ftl": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/profile.jss?type=1&portal=8105120163": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/moresearch.ftl": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602309&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602306&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602082&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602301&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602107&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602299&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602110&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602298&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2601973&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602295&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602292&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602283&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602287&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602286&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602179&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602280&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602276&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602266&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602273&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602268&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602265&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602264&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602263&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.undp.org/cj_view_consultancies.cfm": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fundp-globalcall.eva.ai%2Fjob-details%2F1dc71c08&data=05%7C02%7Calexander.baverel%40undp.org%7Cef42106de0cc4bba7e9f08df35c475a5%7Cb3e5db5e2944483799f57488ace54319%7C0%7C0%7C639288790027835713%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Gn4HysPKjPmaJwrtgAMpdt6UtfqAZUNLyU2pabkJuUw%3D&reserved=0": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/36685": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37756": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37776": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37966": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37968": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37971": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37972": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37983": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37984": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37823": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37861": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37832": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/35803": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37865": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/36167": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37470": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/32902": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37143": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37882": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37919": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37937": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37749": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37531": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37681": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37608": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37996": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38011": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37879": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37751": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37893": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37253": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37739": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37240": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37598": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37437": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37781": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37822": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37827": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11823&lang=sp": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11821&lang=sp": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11820&lang=en": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11819&lang=en": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11815&lang=fr": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11810&lang=en": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11809&lang=en": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11808&lang=en": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.offline.download&offline_vacancy_id=6907": {
+   "fail": 1
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.offline.download&offline_vacancy_id=6906": {
+   "fail": 1
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.offline.download&offline_vacancy_id=6904": {
+   "fail": 1
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.offline.download&offline_vacancy_id=6905": {
+   "fail": 1
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.offline.download&offline_vacancy_id=6903": {
+   "fail": 1
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/2245": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/2186": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/2217": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/2156": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/2138": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/1925": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/1921": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/1916": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/149": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/143": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://wwf-portal.rexx-systems.com/Praktikum-im-Bereich-Klima-und-Energie-80-100-de-j150.html": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://wwf-portal.rexx-systems.com/Mitarbeiterin-Service-Center-80-de-j145.html": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://wwf-portal.rexx-systems.com/Geschaeftsfuehrerin-WWF-Sektion-Zug-60-de-j147.html": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://www.cloudflare.com/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://www.pronatura-ge.ch/fr/les-collaborateurs": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.pronatura-ge.ch/fr/engagement": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.pronatura-ge.ch/fr/benevolat": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://geneva.impacthub.net/cookie-policy-eu/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/alexandra-b-866794230/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/amanda-byrde-3903a8152/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/bertrand-hubert-geneva/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/felix-st%C3%A4hli-3189549/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/jessicamomorie/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/jielielisa/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/julien-abegglen-verazzi-1744a41ab/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/laure-dariel/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/livia-fuchs/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.linkedin.com/in/santu-alexandra-bo%C3%ABthius-69a03b62/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://cielorg.bamboohr.com/careers/111": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://cielorg.bamboohr.com/careers/112": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://cielorg.bamboohr.com/careers/133": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://cielorg.bamboohr.com/careers/134": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://earthjustice.org/about/commitment-to-justice": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/about/jobs/benefits": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/about/student-opportunities": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/general-application": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/executive-assistant-development": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/associate-attorney-community-partnerships-program": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/associate-vice-president-measurement-evaluation-and-learning": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/senior-attorney-enforcement": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/senior-attorney-fossil-fuels": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/two-year-senior-counsel-appellate-enforcement": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/sr-compliance-analyst": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/latin-america-communications-strategist-estratega-de-comunicaciones-para-america-latina": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/latin-america-scientist-cientifico-para-america-latina": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/mexico-attorney-and-international-program-liaison-abogado-a-y-enlace-del-programa-internacional-para-mexico": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/mexico-clean-energy-attorney-abogadoa-de-energia-limpia-mexico": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/associate-attorney-northwest-regional": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/audience-editor": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/digital-operations-associate": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/donor-engagement-specialist-travel": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/executive-assistant-operations": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/legal-operations-administrator": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/litigation-resource-team-manager": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/manager-human-resources-partnerships": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/media-relations-and-communications-strategist-for-healthy-communities": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/media-relations-and-communications-strategist-for-lands-wildlife-and-oceans": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/one-year-prospect-development-analyst": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/project-attorney-oceans": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/research-policy-analyst-healthy-states-project": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/senior-attorney-public-lands-wildlife-and-oceans": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/senior-research-policy-analyst-gulf-regional": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/south-africa-biodiversity-attorney": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/two-year-hub-manager-emerging-issues": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/about/jobs/hiring-process": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.jobvite.com/earthjustice/jobAlerts": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/about/jobs/senior-attorney": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/about/jobs/associate": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/about/jobs/law-clerk": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/our-work/partnerships": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://diversegreen.org/pay-equity-pledge/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service": {
+   "fail": 1
+  },
+  "https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://www.cookiebot.com/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://footprintnetwork.org/job-opportunities/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://www.goldstandard.org/about/we-are-all-about-impact": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://climateactionaccelerator.org/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://recruitee.com/": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://asleman.org/politique-de-confidentialite/": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/autorites-administration/administration-municipale/travailler-ville-geneve/offres-emploi": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/autorites-administration/administration-municipale/travailler-ville-geneve/offres-emploi/conditions-engagement": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/demarches/postuler-poste-vacant-administration-municipale": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/charge-chargee-recherche-numismatique-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/agents-appointes-agentes-appointees-police-municipale-100": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/contremaitre-specialise-contremaitresse-specialisee-travaux-arrosage-100": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/gerant-gerante-operations-foncieres-negociateur-negociatrice-biens-immobiliers-100": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/bibliothecaire-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/agent-agente-information-documentaire-70": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/responsable-comptabilite-finances-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/chauffeur-chauffeuse-poids-lourd-machines-chantier-100": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/responsable-logistique-technique-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/travailleur-social-travailleuse-sociale-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/patrouilleurs-patrouilleuses-scolaires-28": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/controleur-controleuse-incivilites-100": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/gardien-gardienne-installations-sportives-70": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/chef-unite-adjoint-cheffe-unite-adjointe-unite-foires-marche-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/travailleur-social-travailleuse-sociale-80-90": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/administrateur-administratrice-80": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/electricien-electricienne-exploitation-80": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/administration-municipale/offres-emploi/educateur-educatrice-enfance-50-80": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/demarches/inscrire-job-ete": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/demarches/stage-administration-municipale": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://www.geneve.ch/demarches/offres-emploi-petite-enfance": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.geneve.ch/vcard/block_contact/37012": {
+   "fail": 1
+  },
+  "https://www.geneve.ch/administration-municipale/reglements-municipaux/lc21151-statut-personnel-ville-geneve": {
+   "fail": 1
+  },
+  "https://www.geneve.ch/administration-municipale/reglements-municipaux/lc21152-reglement-application-statut-personnel-ville-geneve-regap": {
+   "fail": 1
+  },
+  "https://www.geneve.ch/administration-municipale/reglements-municipaux/lc21152-annexe-zone-domiciliation": {
+   "fail": 1
+  },
+  "https://www.geneve.ch/administration-municipale/reglements-municipaux/lc21151-echelle-traitements-2026": {
+   "fail": 1
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2370": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/document/echelle-salariale-01012024-toujours-valable-2026": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2368": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2367": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2282": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2363": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2364": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2362": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2307": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2338": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2336": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2327": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2310": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2298": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2263": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2361": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2358": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2183": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2325": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2305": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2284": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2326": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1644": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2304": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2292": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2289": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2277": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2279": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2351": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2288": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2274": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2280": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2272": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2265": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2341": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2250": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1765": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2238": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2318": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1977": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://careers.un.org/search-by-map": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.un.org/area-of-expertise": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.un.org/competitive-examinations-for-language-position": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://onehr.un.org/united-nation-job/": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://careers.un.org/un-entities": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://news.un.org/feed/view/en/story/2026/11/1168768": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://news.un.org/feed/view/en/story/2026/11/1168766": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://news.un.org/feed/view/en/story/2026/11/1168763": {
+   "job": false,
+   "topic": true,
+   "place": false
+  },
+  "https://iata.csod.com/ats/careersite/createprofile.aspx?c=iata&site=1&lang=en-GB&returnurl=~%2Fux%2Fats%2Fcareersite%2F1%2Fhome%3Fc%3Diata%26lang%3Den-GB": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://www.iata.org/careers/pages/index.aspx": {
+   "job": false,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3879?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3878?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3687?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3845?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3875?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3871?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3872?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3840?c=iata": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3866?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3864?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3749?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3854?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3826?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3852?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3718?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3734?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3822?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3813?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3802?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3781?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3785?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3768?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3726?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3751?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3750?c=iata": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobsearch.ftl": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/mysubmissions.ftl": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/profile.jss?type=1&portal=101430233": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobsearch.ftl?ftlcompclass=LoginComponent&restore=true": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/mysearches.ftl": {
+   "job": false,
+   "topic": false,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26149-TA&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26306-FT_LT&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26305-FT_LT&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26297-TA&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26326-TA&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26328-TA&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26300-TA&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26310-FT_LT&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26311-FT_LT&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26317-FT_LT&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26185-FT&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": true
+  }
+ }
+}
