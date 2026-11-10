@@ -1,16 +1,20 @@
 """Checks job pages daily and keeps environment-related jobs in the Geneva area.
 
+For every new link found on a site, the scraper opens the page and checks:
+  1. job:      is it really a job posting (not a general page like "Life at CERN")?
+  2. topic:    ("filter" sites only) does the description mention environment keywords?
+  3. location: ("require" sites only) does it mention a Geneva-area place?
+
 Per site (see sites.json):
-  topic:    "all"    -> keep every job link on the page
-            "filter" -> open each job page and keep it only if the description
-                        mentions environment keywords (see TOPIC_WORDS)
-  location: "assume" -> the whole site is in the Geneva area
-            "require"-> the job must mention a place from PLACES (or the site's own
-                        "places" list), in the listing or on the job page
+  topic:    "all" | "filter"
+  location: "assume" | "require"
+  places:   optional list that replaces PLACES for this site (e.g. ["Gland"])
+  job_url:  optional regex; only links whose URL matches it are considered
 """
 import hashlib
 import json
 import re
+import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
@@ -41,12 +45,13 @@ PLACES = [
     "onex", "versoix", "satigny", "cologny", "bernex", "thônex", "thonex", "plan-les-ouates",
     "grand-saconnex", "chêne-bourg", "chene-bourg", "pregny", "ferney",
 ]
-# A job page must contain at least this many keyword matches to count as
-# environment-related. 2 avoids false hits like "the nature of the work".
-# Set to 1 to accept any single mention.
+# A job page needs at least this many keyword matches to count as environment-related.
+# 2 avoids false hits like "the nature of the work". Set to 1 to accept any mention.
 MIN_TOPIC_HITS = 2
-# Job pages opened per site per run. Large sites are checked over several days.
-MAX_DETAIL_PAGES = 60
+# Pages opened per site per run. Large sites are worked through over several days.
+MAX_DETAIL_PAGES = 40
+# Stop starting new sites after this many minutes (the rest are done on the next run).
+TIME_BUDGET_MIN = 270
 # ----------------------------------------------------------------------------
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -59,8 +64,18 @@ JOBISH = re.compile(
     r"(job|vacanc|career|position|emploi|poste|offre|recruit|requisition|opening|posting|"
     r"candidat|stage|intern|consult|manager|officer|assistant|director|specialist|analyst|"
     r"coordinator|advis|associate|engineer|head of|chargé|responsable|stagiaire|expert|"
-    r"researcher|fellow|apprentice)", re.I)
+    r"researcher|fellow|apprentice|\d{4,})", re.I)
+# Phrases typical of a job posting page (English and French). A page needs 2 different ones.
+JOB_SIGNALS = re.compile(
+    r"(?<!\w)(apply now|how to apply|apply for|apply online|application deadline|closing date|"
+    r"deadline for application|date limite|postuler|candidater|déposer votre candidature|"
+    r"submit your application|job description|description du poste|responsibilities|"
+    r"responsabilités|qualifications|requirements|exigences|profil recherché|contract type|"
+    r"type de contrat|grade|duty station|lieu d.affectation|contract duration|durée du contrat|"
+    r"vacancy notice|avis de vacance|taux d.activité|full[- ]time|temps plein|main duties|"
+    r"key duties|your profile|about the role|job id|req id)", re.I)
 TRACKING = re.compile(r"^(utm_.*|fbclid|gclid|_ga|_gl|source|jsessionid|session.*)$", re.I)
+DOC_EXT = (".pdf", ".doc", ".docx")
 
 JS_LINKS = r"""() => [...document.querySelectorAll('a[href]')]
   .filter(a => !a.closest('header, nav, footer'))
@@ -71,12 +86,18 @@ JS_LINKS = r"""() => [...document.querySelectorAll('a[href]')]
             href: a.href, ctx: clean(row ? row.innerText : '').slice(0, 400)};
   })"""
 
-# Text of a job page without menus/footers (which repeat the organisation's mission).
-JS_BODY = r"""() => {
+# "text" = job text without menus/footers (these repeat the organisation's mission);
+# "full" = everything visible, used to recognise job-posting wording;
+# "ld"   = page declares schema.org JobPosting data.
+JS_PAGE = r"""() => {
+  const clean = s => (s || '').replace(/\s+/g, ' ');
   const root = document.querySelector('main, [role=main]') || document.body;
   const c = root.cloneNode(true);
   c.querySelectorAll('header, nav, footer, script, style, noscript').forEach(e => e.remove());
-  return (c.textContent || '').replace(/\s+/g, ' ').slice(0, 20000);
+  const ld = [...document.querySelectorAll('script[type="application/ld+json"]')]
+    .some(s => /JobPosting/.test(s.textContent));
+  return {text: clean(c.textContent).slice(0, 20000),
+          full: clean(document.body.innerText).slice(0, 30000), ld: ld};
 }"""
 
 
@@ -107,6 +128,7 @@ def load(page, url):
 def candidates(page, site):
     load(page, site["url"])
     base = norm_url(site["url"])
+    job_url = re.compile(site["job_url"], re.I) if site.get("job_url") else None
     seen, out = set(), []
     for link in page.evaluate(JS_LINKS):
         text, href = link["text"], link["href"]
@@ -115,10 +137,13 @@ def candidates(page, site):
         url = norm_url(href)
         if url == base or url in seen:
             continue
-        # On "filter" sites we open each job page, so first drop links that
-        # clearly aren't jobs (saves time).
-        if site["topic"] == "filter" and not JOBISH.search(text + " " + href):
+        if job_url and not job_url.search(url):
             continue
+        if not job_url and site["topic"] == "filter":
+            # quick pre-filter on the link text and the path (not the domain name)
+            u = urlsplit(url)
+            if not JOBISH.search(text + " " + u.path + " " + u.query):
+                continue
         seen.add(url)
         out.append({"title": text, "url": url, "ctx": link["ctx"]})
     return out
@@ -132,26 +157,51 @@ def read_page(page, url):
         except Exception:
             pass
         page.wait_for_timeout(1500)
-        return page.evaluate(JS_BODY)
+        return page.evaluate(JS_PAGE)
     except Exception:
-        return None  # couldn't read it; try again next run
+        return None
+
+
+def is_job_page(data):
+    if data["ld"]:
+        return True
+    return len({m.lower() for m in JOB_SIGNALS.findall(data["full"])}) >= 2
+
+
+def save(state_path, now, sites_status, jobs, checked):
+    cutoff = (now - timedelta(days=60)).date().isoformat()
+    kept_jobs = [j for j in jobs.values() if j["active"] or j["last_seen"] >= cutoff]
+    kept_jobs.sort(key=lambda j: (j["first_seen"], j["site"]), reverse=True)
+    state_path.parent.mkdir(exist_ok=True)
+    state_path.write_text(json.dumps(
+        {"updated": now.isoformat(timespec="seconds"), "sites": sites_status,
+         "jobs": kept_jobs, "checked": checked}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def main():
+    started = time.time()
     state = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else {}
     jobs = {j["id"]: j for j in state.get("jobs", [])}
     checked = state.get("checked", {})
     old_sites = state.get("sites", {})
     now = datetime.now(timezone.utc)
     today = now.date().isoformat()
-    sites_status = {}
+    sites_status = dict(old_sites)
+
+    # Start at a different site each day so none is always last if time runs out.
+    offset = now.toordinal() % len(SITES)
+    order = SITES[offset:] + SITES[:offset]
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
         context = browser.new_context(user_agent=UA, locale="en-GB")
-        for site in SITES:
+        for site in order:
             name = site["name"]
             known = old_sites.get(name, {}).get("baseline_done", False)
+            if time.time() - started > TIME_BUDGET_MIN * 60:
+                sites_status.setdefault(name, {"ok": False, "baseline_done": known,
+                                               "message": "Not reached yet (time limit); will run next time."})
+                continue
             need_topic = site["topic"] == "filter"
             need_place = site.get("location", "require") == "require"
             page = context.new_page()
@@ -163,26 +213,35 @@ def main():
                 kept, fetched, skipped = [], 0, 0
                 for c in cands:
                     listing = c["title"] + " " + c["ctx"]
-                    topic_ok = (not need_topic) or bool(TOPIC.search(listing))
-                    place_ok = (not need_place) or bool(places.search(listing))
-                    if not (topic_ok and place_ok):
-                        cached = checked.get(c["url"])
-                        if isinstance(cached, dict):
-                            topic_ok = topic_ok or cached["topic"]
-                            place_ok = place_ok or cached["place"]
-                        elif fetched < MAX_DETAIL_PAGES:
-                            fetched += 1
-                            body = read_page(page, c["url"])
-                            if body is None:
+                    cached = checked.get(c["url"])
+                    if urlsplit(c["url"]).path.lower().endswith(DOC_EXT):
+                        # Document links (e.g. PDF job ads): judge by the listing text only.
+                        job_ok = True
+                        topic_ok = (not need_topic) or bool(TOPIC.search(listing))
+                        place_ok = (not need_place) or bool(places.search(listing))
+                    elif isinstance(cached, dict) and "job" in cached:
+                        job_ok, topic_ok, place_ok = cached["job"], cached["topic"], cached["place"]
+                    elif fetched < MAX_DETAIL_PAGES:
+                        fetched += 1
+                        data = read_page(page, c["url"])
+                        if data is None:
+                            fails = cached.get("fail", 0) + 1 if isinstance(cached, dict) else 1
+                            if fails < 3:
+                                checked[c["url"]] = {"fail": fails}
                                 skipped += 1
-                                continue
-                            topic_ok = topic_ok or len(TOPIC.findall(body)) >= MIN_TOPIC_HITS
-                            place_ok = place_ok or bool(places.search(body))
-                            checked[c["url"]] = {"topic": topic_ok, "place": place_ok}
-                        else:
-                            skipped += 1
+                            else:  # give up on pages that never load
+                                checked[c["url"]] = {"job": False, "topic": False, "place": False}
                             continue
-                    if topic_ok and place_ok:
+                        job_ok = is_job_page(data)
+                        topic_ok = (not need_topic) or bool(TOPIC.search(listing)) \
+                            or len(TOPIC.findall(data["text"])) >= MIN_TOPIC_HITS
+                        place_ok = (not need_place) or bool(places.search(listing)) \
+                            or bool(places.search(data["text"]))
+                        checked[c["url"]] = {"job": job_ok, "topic": topic_ok, "place": place_ok}
+                    else:
+                        skipped += 1
+                        continue
+                    if job_ok and topic_ok and place_ok:
                         kept.append(c)
 
                 kept_ids = set()
@@ -200,22 +259,17 @@ def main():
                         j["active"] = False
                 sites_status[name] = {"ok": True, "count": len(kept), "pending": skipped,
                                       "baseline_done": known or skipped == 0}
-                print(f"OK    {name}: {len(kept)} kept of {len(cands)} links, {skipped} pending")
+                print(f"OK    {name}: {len(kept)} jobs kept of {len(cands)} links, {skipped} pending")
             except Exception as e:
                 sites_status[name] = {"ok": False, "message": str(e).splitlines()[0][:160],
                                       "baseline_done": known}
                 print(f"FAIL  {name}: {e}")
             finally:
                 page.close()
+            save(DATA_FILE, now, sites_status, jobs, checked)  # save after every site
         browser.close()
 
-    cutoff = (now - timedelta(days=60)).date().isoformat()
-    kept_jobs = [j for j in jobs.values() if j["active"] or j["last_seen"] >= cutoff]
-    kept_jobs.sort(key=lambda j: (j["first_seen"], j["site"]), reverse=True)
-    DATA_FILE.parent.mkdir(exist_ok=True)
-    DATA_FILE.write_text(json.dumps(
-        {"updated": now.isoformat(timespec="seconds"), "sites": sites_status,
-         "jobs": kept_jobs, "checked": checked}, ensure_ascii=False, indent=1), encoding="utf-8")
+    save(DATA_FILE, now, sites_status, jobs, checked)
 
 
 if __name__ == "__main__":
