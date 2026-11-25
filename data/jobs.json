@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T06:54:41+00:00",
+ "updated": "2026-11-25T06:53:06+00:00",
  "sites": {
   "ILO": {
    "ok": true,
@@ -9,7 +9,7 @@
   },
   "ITU": {
    "ok": true,
-   "count": 19,
+   "count": 20,
    "pending": 0,
    "baseline_done": true
   },
@@ -26,13 +26,14 @@
   },
   "UNOPS": {
    "ok": true,
-   "count": 7,
+   "count": 4,
    "pending": 0,
    "baseline_done": true
   },
   "UNITAR": {
-   "ok": false,
-   "message": "No job links found. The page may load jobs differently.",
+   "ok": true,
+   "count": 5,
+   "pending": 0,
    "baseline_done": true
   },
   "Université de Genève": {
@@ -49,7 +50,7 @@
   },
   "World Economic Forum": {
    "ok": true,
-   "count": 16,
+   "count": 17,
    "pending": 0,
    "baseline_done": true
   },
@@ -85,7 +86,7 @@
   },
   "IUCN": {
    "ok": true,
-   "count": 1,
+   "count": 2,
    "pending": 0,
    "baseline_done": true
   },
@@ -130,7 +131,7 @@
   },
   "CIEL": {
    "ok": true,
-   "count": 4,
+   "count": 2,
    "pending": 0,
    "baseline_done": true
   },
@@ -178,7 +179,7 @@
   },
   "État de Genève (ge.ch)": {
    "ok": true,
-   "count": 22,
+   "count": 23,
    "pending": 0,
    "baseline_done": true
   },
@@ -206,19 +207,99 @@
   },
   "WIPO": {
    "ok": true,
-   "count": 11,
+   "count": 10,
    "pending": 0,
    "baseline_done": true
   }
  },
  "jobs": [
   {
+   "id": "eae894f61244",
+   "site": "État de Genève (ge.ch)",
+   "title": "2 postes Commis-e administratif-ve 5 (gestionnaire) de 70 à 80% - SPMI 115648",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2349",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "f24dc944d2ca",
+   "site": "État de Genève (ge.ch)",
+   "title": "Directrice générale adjointe ou Directeur général adjoint",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2423",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "31d4b776bc47",
+   "site": "État de Genève (ge.ch)",
+   "title": "Deux agentes ou agents d'exploitation poids lourds",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2422",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "3d74eaef4210",
+   "site": "État de Genève (ge.ch)",
+   "title": "Assistant technique CFP",
+   "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2360",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "db278acaca87",
+   "site": "World Economic Forum",
+   "title": "Communications Associate, Foundations (Young Global Leaders)",
+   "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Communications-Specialist--Foundations_R4282-1",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "e375c48cddbb",
+   "site": "UNITAR",
+   "title": "Traineeship – Multilateral Diplomacy Programme – Field Visits and Online Training Programmes",
+   "url": "https://unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/442",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "1302b75edda9",
+   "site": "IUCN",
+   "title": "Head of Science",
+   "url": "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11834&lang=en",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
+   "id": "0661e0d8dfff",
+   "site": "ITU",
+   "title": "Unpaid Internship - Internships & Partnerships Process Innovation and AI Intern",
+   "url": "https://jobs.itu.int/job/Geneva-Unpaid-Internship-Internships-&-Partnerships-Process-Innovation-and-AI-Intern/1378257955/",
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "active": true,
+   "baseline": false
+  },
+  {
    "id": "d5f6ce97562c",
    "site": "World Economic Forum",
    "title": "Analyst, Content and Centre Engagement",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Specialist--Content-and-Centre-Engagement_R4249",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -228,7 +309,7 @@
    "title": "Senior Associate, Financing Real Economy Transformation (Sustainable Finance)",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Associate--Financing-Real-Economy-Transformation--Sustainable-Finance-_R4378",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -238,7 +319,7 @@
    "title": "Associate, Content and Partnerships – Strategic Intelligence",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Associate--Content-and-Partnerships---Strategic-Intelligence_R4368",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -248,7 +329,7 @@
    "title": "Administration Clerk",
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Auxiliar-Administrativo/5302",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -258,7 +339,7 @@
    "title": "Assistant Manager Industry Relationships CENAM",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3897?c=iata",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -268,7 +349,7 @@
    "title": "Intern Power BI Analytics",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3850?c=iata",
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -278,7 +359,7 @@
    "title": "Roster - Consultant on Smart Villages and Smart Islands (Asia-Pacific)",
    "url": "https://jobs.itu.int/job/Multiple-duty-stations-Roster-Consultant-on-Smart-Villages-and-Smart-Islands-%28Asia-Pacific%29/993659455/",
    "first_seen": "2026-11-22",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -288,7 +369,7 @@
    "title": "Account Manager, Korea and North Asia",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Regional-Manager--Partner-Development---Account-Management--Asia-Pacific_R3881",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -298,7 +379,7 @@
    "title": "Humanitarian Affairs Analyst (Nationals Only) NOA Dec-4-26 UNOCHA Gaalkacyo, Somalia",
    "url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38154",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -308,7 +389,7 @@
    "title": "Secrétaire 2",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2353",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -318,7 +399,7 @@
    "title": "Early Careers Programme, Spring 2027 Cohort - Beijing",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Beijing/Early-Careers-Programme--Spring-2027-Cohort---Beijing_R4380",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -328,7 +409,7 @@
    "title": "Early Careers Programme, Spring 2027 Cohort – New York and San Francisco",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Early-Careers-Programme--Spring-2027-Cohort---New-York-and-San-Francisco_R4382",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -338,7 +419,7 @@
    "title": "Early Careers Programme, Spring 2027 Cohort - Geneva",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Early-Careers-Programme--Spring-2027-Cohort---Geneva_R4381",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -349,7 +430,7 @@
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Administration-Senior-Assistant/5263",
    "first_seen": "2026-11-20",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": false
   },
   {
@@ -358,7 +439,7 @@
    "title": "Advisor, Malaria Technical and Programmatic Support",
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Malaria-Technical-and-Programmatic-Support/5038",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -368,7 +449,7 @@
    "title": "Roster - Consultants for capacity and digital skills development",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Consultants-for-capacity-and-digital-skills-development/1170425755/",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -378,7 +459,7 @@
    "title": "Roster - Green Digital transformation Consultant",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Green-Digital-transformation-Consultant/1152178755/",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -388,7 +469,7 @@
    "title": "Event Coordination Consultant",
    "url": "https://jobs.itu.int/job/Geneva-Event-Coordination-Consultant/1377612955/",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -398,7 +479,7 @@
    "title": "PhD Position in International Law (F/M/D)",
    "url": "https://erecruit.graduateinstitute.ch/recrutement/?page=advertisement_display&id=700",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -408,7 +489,7 @@
    "title": "Assistant Director Airline Supply Chain Operations",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3877?c=iata",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -418,7 +499,7 @@
    "title": "Intern IATA Training",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3886?c=iata",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -428,7 +509,7 @@
    "title": "Manager, DDS Data Quality",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3883?c=iata",
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -439,7 +520,7 @@
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2407",
    "first_seen": "2026-11-19",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": false
   },
   {
@@ -448,7 +529,7 @@
    "title": "Magasinier 2 à 100%",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2352",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -458,7 +539,7 @@
    "title": "Conseillère de direction adjointe ou Conseiller de direction adjoint",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2373",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -468,7 +549,7 @@
    "title": "Associate, Social Media",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Associate--Social-Media_R4376",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -478,7 +559,7 @@
    "title": "Talent Acquisition Manager",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26340-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -488,7 +569,7 @@
    "title": "Senior Innovation Portfolio Manager",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26333-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -498,7 +579,7 @@
    "title": "Legal Officer",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26322-FT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -508,7 +589,7 @@
    "title": "Roster of Consultants - Health Governance",
    "url": "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604939&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -518,7 +599,7 @@
    "title": "Scientist (Assessment of Medical Devices)",
    "url": "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604521&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -528,7 +609,7 @@
    "title": "Advisor, Peacebuilding",
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Peacebuilding/5110",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -538,7 +619,7 @@
    "title": "Roster - Circular Economy Consultant - Asia Region",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Circular-Economy-Consultant-Asia-Region/1147953755/",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -548,7 +629,7 @@
    "title": "Roster - Circular Economy Consultant - Africa Region",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Circular-Economy-Consultant-Africa-Region/1147955155/",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -558,7 +639,7 @@
    "title": "Roster - Circular Economy Consultant - Latin America",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Circular-Economy-Consultant-Latin-America/1147959055/",
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -568,7 +649,7 @@
    "title": "Une ou un responsable de secteur RH - Prévention des absences et maintien en emploi",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2357",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -578,7 +659,7 @@
    "title": "Senior Associate, Energy and Materials, Middle East and Africa (MENA)",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Specialist--Middle-East-and-North-Africa---Centre-for-Energy-and-Materials_R4157",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -588,7 +669,7 @@
    "title": "Associate Program Officer",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26327-TA&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -668,7 +749,7 @@
    "title": "Senior Manager, Contract Management",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Manager--Contract-Management_R4345",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -688,7 +769,7 @@
    "title": "Creative Economy Data Scientist",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26335-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -698,7 +779,7 @@
    "title": "Advisor, Financial Systems & Digital Infrastructure",
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Advisor-Financial-Systems-Digital-Infrastructure-Retainer/5172",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -748,7 +829,7 @@
    "title": "Roster - Cybersecurity Programme Consultant",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Cybersecurity-Programme-Consultant/1356599355/",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -758,7 +839,7 @@
    "title": "EQUALS Partnership Coordination and Communications Consultant",
    "url": "https://jobs.itu.int/job/Home-Based-EQUALS-Partnership-Coordination-and-Communications-Consultant/1377200555/",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -768,7 +849,7 @@
    "title": "Student Residences Manager (F/M/D)",
    "url": "https://erecruit.graduateinstitute.ch/recrutement/?page=advertisement_display&id=698",
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -778,7 +859,7 @@
    "title": "Assistante administrative 1 ou assistant administratif 1",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2331",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -798,7 +879,7 @@
    "title": "Roster - Internal AI Strategy, Automation and Agentic AI Enablement Consultant",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Internal-AI-Strategy%2C-Automation-and-Agentic-AI-Enablement-Consultant/1361937355/",
    "first_seen": "2026-11-16",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -808,7 +889,7 @@
    "title": "Cheffe ou chef de service de l'inspection de la construction et des chantiers (80-100%)",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2330",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -818,7 +899,7 @@
    "title": "Senior Director, Content and Editorial",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Director--Content-and-Editorial_R4367-1",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -858,7 +939,7 @@
    "title": "Traineeship – Multimedia Communications & Graphic Design",
    "url": "https://unitar.org/vacancy-announcements/traineeship-multimedia-communications-graphic-design/439",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -868,7 +949,7 @@
    "title": "Roster - Digital Inclusion Consultant",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Digital-Inclusion-Consultant/1356218155/",
    "first_seen": "2026-11-14",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -878,7 +959,7 @@
    "title": "Cheffe ou chef de projet (Adjointe ou adjoint scientifique 2)",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2329",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -898,7 +979,7 @@
    "title": "Chargée ou chargé de projets en transports professionnels (Ingénieure ou ingénieur)",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2311",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -908,7 +989,7 @@
    "title": "Senior Associate, Quantum and Technology Convergence",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Lead--Quantum-Technologies---Convergence_R4267",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -958,7 +1039,7 @@
    "title": "Roster - Innovation Ecosystem Consultant",
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Innovation-Ecosystem-Consultant/1364924755/",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -968,7 +1049,7 @@
    "title": "Study Groups Advisor",
    "url": "https://jobs.itu.int/job/Geneva-Study-Groups-Advisor/1372899255/",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -978,7 +1059,7 @@
    "title": "Conseiller(ère) auprès des commissions d'études",
    "url": "https://jobs.itu.int/job/Gen%C3%A8ve-Conseiller%28%C3%A8re%29-aupr%C3%A8s-des-commissions-d&apos;%C3%A9tudes/1372899355/",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -988,7 +1069,7 @@
    "title": "Analyst Settlement Operations",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3882?c=iata",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -998,7 +1079,7 @@
    "title": "Data Modeler",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3874?c=iata",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -1009,7 +1090,7 @@
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2300",
    "first_seen": "2026-11-12",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -1018,7 +1099,7 @@
    "title": "Agent-e-s de détention",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/228",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1028,7 +1109,7 @@
    "title": "Intervenante ou Intervenant en protection de l'enfant auxiliaires à 80% - 100% - Plusieurs postes - SPMI 114963",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1528",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1038,7 +1119,7 @@
    "title": "Intervenante ou Intervenant en protection de l'enfant à 80% - 100% - Plusieurs postes - SPMI 114965",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1533",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1048,7 +1129,7 @@
    "title": "ASP armé",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1033",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1058,7 +1139,7 @@
    "title": "Senior Associate, Communications, Forest Future Alliance",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Associate--Communications--Forest-Future-Alliance_R4343",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -1078,7 +1159,7 @@
    "title": "Grants Finance Officer",
    "url": "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11826&lang=en",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1098,7 +1179,7 @@
    "title": "Communication and Events Intern",
    "url": "https://caa.recruitee.com/o/communication-and-events-intern",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": false
   },
@@ -1158,7 +1239,7 @@
    "title": "Acheteuse ou acheteur - spécialiste marchés publics",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2254",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1168,7 +1249,7 @@
    "title": "Greffière-juriste ou greffier-juriste",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1874",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1278,7 +1359,7 @@
    "title": "Médecin cheffe ou chef de clinique",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/518",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1359,7 +1440,7 @@
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2307",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -1368,7 +1449,7 @@
    "title": "Secrétaire 2 (auxiliaire)",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2336",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1388,7 +1469,7 @@
    "title": "Hydrogéologue spécialisée ou spécialisé en sites pollués (adjointe ou adjoint scientifique 3)",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2325",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1408,7 +1489,7 @@
    "title": "Cheffe ou chef du groupe véhicules et transport",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2289",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1428,7 +1509,7 @@
    "title": "Deux greffières ou greffiers",
    "url": "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2351",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1508,7 +1589,7 @@
    "title": "Senior Associate, Innovation Ecosystem – Mining & Metals (Temporary)",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Senior-Associate--Innovation-Ecosystem---Mining---Metals_R4369",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1528,7 +1609,7 @@
    "title": "Account Manager, Partner Strategy, Africa",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Account-Manager--Partner-Strategy--Africa_R4289",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1538,7 +1619,7 @@
    "title": "Senior Associate, Centre for Experience Economy and Cities",
    "url": "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Senior-Associate--Centre-for-Experience-Economy-and-Cities_R4352-1",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1638,7 +1719,7 @@
    "title": "HCM Payroll Specialist",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26305-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1669,7 +1750,7 @@
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26300-TA&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -1678,7 +1759,7 @@
    "title": "Associate Legal Officer",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26310-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1688,7 +1769,7 @@
    "title": "Master Data Management Officer",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26311-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1698,7 +1779,7 @@
    "title": "Counsellor",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26317-FT_LT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1708,7 +1789,7 @@
    "title": "Head, Administrative Law Section",
    "url": "https://wipo.taleo.net/careersection/wp_2/jobdetail.ftl?job=26185-FT&tz=GMT%2B00%3A00&tzname=UTC",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1728,7 +1809,7 @@
    "title": "Postuler à un poste vacant à l'administration municipale",
    "url": "https://www.geneve.ch/demarches/postuler-poste-vacant-administration-municipale",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1768,7 +1849,7 @@
    "title": "Travailleur social ou Travailleuse sociale à 80-90%",
    "url": "https://www.geneve.ch/administration-municipale/offres-emploi/travailleur-social-travailleuse-sociale-80-90",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1778,7 +1859,7 @@
    "title": "Administrateur ou Administratrice à 80%",
    "url": "https://www.geneve.ch/administration-municipale/offres-emploi/administrateur-administratrice-80",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1788,7 +1869,7 @@
    "title": "Electricien ou Electricienne d'exploitation à 80%",
    "url": "https://www.geneve.ch/administration-municipale/offres-emploi/electricien-electricienne-exploitation-80",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1879,7 +1960,7 @@
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Capacity-Building-Specialist-Media-and-Communication-retainer-position/5073",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -1889,7 +1970,7 @@
    "url": "https://careers.unops.org/careersmarketplace/JobDetail/Capacity-Building-Specialist-Media-development-journalism-and-strategic-communication-retainer-position/5074",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -1908,7 +1989,7 @@
    "title": "Deputy Executive Director - D2",
    "url": "https://unitar.org/vacancy-announcements/deputy-executive-director-d2/438",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1918,7 +1999,7 @@
    "title": "Individual Contractor - Geospatial Quality Assurance, Training and Analytical Support Specialists (Geneva office based)",
    "url": "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-quality-assurance-training-and-analytical-support-specialists/413",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1928,7 +2009,7 @@
    "title": "Individual Contractor - Geospatial Analysts – Satellite Imagery and GIS (Geneva office based)",
    "url": "https://unitar.org/vacancy-announcements/roster/individual-contractor-geospatial-analysts-satellite-imagery-and-gis-geneva-office-based/415",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1948,7 +2029,7 @@
    "title": "Offre d'emploi - Animateur·ice·s Centres Nature… (577kB)",
    "url": "https://www.pronatura-ge.ch/sites/pronatura-ge.ch/files/2026-10/2027_offre_demploi_anim_junior_cns.pdf",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1978,7 +2059,7 @@
    "title": "Consultant/expert",
    "url": "https://jobs.itu.int/go/Special-service-agreement/8942955/",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1988,7 +2069,7 @@
    "title": "Location",
    "url": "https://jobs.itu.int/go/View-all-categories/8942455/?q=&sortColumn=sort_location&sortDirection=desc",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -1998,7 +2079,7 @@
    "title": "Job family",
    "url": "https://jobs.itu.int/go/View-all-categories/8942455/?q=&sortColumn=sort_department&sortDirection=desc",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2009,7 +2090,7 @@
    "url": "https://jobs.itu.int/job/Geneva-Unpaid-internship-Emergency-Telecommunications-Intern/1367950855/",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -2039,7 +2120,7 @@
    "url": "https://jobs.itu.int/job/Home-Based-Roster-Senior-CIRT-Governance-and-Policy-Consultant/1335756755/",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -2178,8 +2259,8 @@
    "title": "Head, Organizational Design, Workforce Planning & Talent Acquisition Division",
    "url": "https://jobs.itu.int/job/Geneva-Head%2C-Organizational-Design%2C-Workforce-Planning-&-Talent-Acquisition-Division/1374527155/",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
-   "active": false,
+   "last_seen": "2026-11-25",
+   "active": true,
    "baseline": true
   },
   {
@@ -2188,8 +2269,8 @@
    "title": "Chef(fe), Design organisationnel, planification des effectifs et acquisition des talents",
    "url": "https://jobs.itu.int/job/Gen%C3%A8ve-Chef%28fe%29%2C-Design-organisationnel%2C-planification-des-effectifs-et-acquisition-des-talents/1374527255/",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-15",
-   "active": false,
+   "last_seen": "2026-11-25",
+   "active": true,
    "baseline": true
   },
   {
@@ -2198,7 +2279,7 @@
    "title": "Senior Enterprise Architect",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3879?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2218,7 +2299,7 @@
    "title": "SAP Order-to-Cash (OTC) Functional Lead",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3687?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2228,7 +2309,7 @@
    "title": "Intern, Corporate Finance",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3845?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2248,7 +2329,7 @@
    "title": "IT Contracts and Vendor Management Specialist",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3871?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2258,7 +2339,7 @@
    "title": "Head Flight Operations and Crew Training",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3872?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2278,7 +2359,7 @@
    "title": "Intern Global Aviation Data Management",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3864?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2288,7 +2369,7 @@
    "title": "Manager Customer Service",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3749?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2298,7 +2379,7 @@
    "title": "Intern Marketing",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3854?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2308,7 +2389,7 @@
    "title": "Assistant Director Economic Analysis",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3826?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2318,7 +2399,7 @@
    "title": "PPD Specialist North Asia",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3852?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2328,7 +2409,7 @@
    "title": "Manager, Learning Experience and Support",
    "url": "https://iata.csod.com/ux/ats/careersite/1/home/requisition/3718?c=iata",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2438,7 +2519,7 @@
    "title": "General Interest Application - CIEL Talent Pool",
    "url": "https://cielorg.bamboohr.com/careers/111",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2448,7 +2529,7 @@
    "title": "Legal Fellowship",
    "url": "https://cielorg.bamboohr.com/careers/112",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "active": true,
    "baseline": true
   },
@@ -2459,7 +2540,7 @@
    "url": "https://cielorg.bamboohr.com/careers/133",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   },
   {
@@ -2469,7 +2550,7 @@
    "url": "https://cielorg.bamboohr.com/careers/134",
    "first_seen": "2026-11-10",
    "last_seen": "2026-11-24",
-   "active": true,
+   "active": false,
    "baseline": true
   }
  ],
@@ -7038,6 +7119,291 @@
    "place": false
   },
   "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38216": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.dayforcehcm.com/en-GB/wwfint/EXTERNAL/jobs/2316": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://earthjustice.org/job/senior-legislative-representative-toxic": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/1790": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2348": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2349": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2423": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2384": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2422": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2360": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2315": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2347": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://www.ge.ch/offres-emploi-etat-geneve/liste-offres/2411": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://news.un.org/feed/view/en/story/2026/11/1168871": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://news.un.org/feed/view/en/story/2026/11/1168869": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://news.un.org/feed/view/en/story/2026/11/1168868": {
+   "job": false,
+   "topic": false,
+   "place": false
+  },
+  "https://jobs.itu.int/job/Geneva-Unpaid-Internship-Internships-&-Partnerships-Process-Innovation-and-AI-Intern/1378257955/": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604544&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2605155&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2604982&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.who.int/careersection/ex/jobdetail.ftl?job=2605142&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Administration-Senior-Assistant/5326": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Architectural-Engineer/5279": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Assistant-e-en-Technologies-de-l-information-et-de-la-Communication-Contrat-de-6-mois-pour-remplacement-temporaire-de-cong-maternit/5194": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Associ-principal-en-RH/5321": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Biomedical-Engineer/5285": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://careers.unops.org/careersmarketplace/JobDetail/Civil-Engineer/5277": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://unitar.org/vacancy-announcements/traineeship-multilateral-diplomacy-programme-field-visits-and-online-training-programmes/442": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://unitar.org/vacancy-announcements/individual-contractor-communications-coordination-and-administrative-support/441": {
+   "job": true,
+   "topic": false,
+   "place": true
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/New-York/Manager--Partner-Development--North-America_R4347": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://weforum.wd3.myworkdayjobs.com/en-US/Forum_Careers/job/Geneva/Communications-Specialist--Foundations_R4282-1": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602381&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602380&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602069&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602378&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://jobs.fao.org/careersection/fao_external/jobdetail.ftl?job=2602377&tz=GMT%2B00%3A00&tzname=UTC": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37666": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38255": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38250": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37186": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37917": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38252": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38254": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38215": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38240": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38220": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38251": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38231": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38248": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38249": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/37926": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38026": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38239": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38262": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38264": {
+   "job": true,
+   "topic": true,
+   "place": false
+  },
+  "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions/job/38246": {
+   "job": true,
+   "topic": false,
+   "place": false
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11834&lang=en": {
+   "job": true,
+   "topic": true,
+   "place": true
+  },
+  "https://hrms.iucn.org/iresy/index.cfm?event=vac.show&vacId=11833&lang=en": {
    "job": true,
    "topic": true,
    "place": false
